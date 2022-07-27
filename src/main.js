@@ -15,4 +15,4 @@ app.directive('focus', {
     }
 })
 
-window.Kakao.init("c02c58cc6dff4d37f920a0170f738634");
+window.Kakao.init("");
