@@ -14,7 +14,7 @@ export default {
   },
   mounted() {
     this.naverLogin = new window.naver.LoginWithNaverId({
-      clientId: "bCD53smrXtcJo9pzGQEW", //개발자센터에 등록한 ClientID
+      clientId: "", //개발자센터에 등록한 ClientID
       callbackUrl: "http://localhost:8080/naverlogin", //개발자센터에 등록한 callback Url
       isPopup: false, //팝업을 통한 연동처리 여부
       loginButton: { color: "green", type: 3, height: 60 }, //로그인 버튼의 타입을 지정
